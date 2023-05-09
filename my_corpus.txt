@@ -1,0 +1,1 @@
+This is an example text file for the NLTK keyboard assistant server. You can add your own text to this file, and the server will use it to suggest word completions based on what the user has typed so far. The more text you add, the more accurate the suggestions will be. Happy typing!
