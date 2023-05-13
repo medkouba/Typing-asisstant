@@ -14,6 +14,9 @@ from nltk.corpus import reuters
 import nltk
 from nltk.corpus import PlaintextCorpusReader
 
+import os
+os.environ["NLTK_DATA"] = "/app/nltk_data"
+
 
 def get_trigram_freq(tokens):
     tgs = list(nltk.trigrams(tokens))
